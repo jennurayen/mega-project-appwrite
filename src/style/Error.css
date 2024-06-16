@@ -1,0 +1,32 @@
+.error-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.error-header {
+    font-size: 6.5rem;
+}
+
+.error-btn {
+    background: rgb(145, 90, 216);
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.error-btn:hover {
+    background: rgb(161, 105, 233);
+}
+
+.error-btn:active {
+    background: rgb(135, 80, 207);
+}

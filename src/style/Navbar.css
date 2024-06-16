@@ -1,0 +1,38 @@
+nav {
+    display: flex;
+    padding: 0 50px;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background: var(--p-500);
+    color: white;
+}
+
+nav .logo {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+nav ul a {
+    padding: 5px 8px;
+    border-radius: 5px;
+    font-weight: 500;
+    border: 1px solid transparent;
+}
+
+nav ul a:hover {
+    border: 1px solid var(--p-800);
+}
+
+nav ul a:active {
+    background: var(--p-800);
+}
+
+nav ul .active {
+    background: var(--p-200);
+}

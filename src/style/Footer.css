@@ -1,0 +1,38 @@
+footer {
+    background: var(--p-500);
+    padding: 50px;
+    color: white;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: underline;
+
+    padding: 5px 10px;
+}
+
+footer a:hover {
+    text-decoration: none;
+}
+
+footer a.active {
+    background: var(--p-200);
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+footer a:active {
+    color: var(--p-800);
+}
+
+footer .footer-link {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+hr {
+    border-color: var(--p-500);
+}
